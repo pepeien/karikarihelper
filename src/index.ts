@@ -1,3 +1,5 @@
+// Languages
+export { Langs, LangKey } from "./langs";
 // Types
 export { ApiResponseWrapper } from "./types/api-response-wrapper";
 export type {
@@ -13,6 +15,7 @@ export type {
     EventQueryableParams,
     Event,
 } from "./types/event";
+export { InHouseLang } from "./types/language";
 export { FileType, FileTypes } from "./types/mime-file-types";
 export type {
     MenuCreatableParams,
