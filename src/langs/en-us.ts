@@ -1,6 +1,7 @@
 import { InHouseLang } from "..";
 
 export default {
+    LANGUAGE_META_NAME: "en",
     LANGUAGE_DISPLAY_NAME: "English (US)",
 
     /**

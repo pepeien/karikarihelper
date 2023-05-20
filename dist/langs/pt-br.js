@@ -1,4 +1,5 @@
 export default {
+    LANGUAGE_META_NAME: "pt",
     LANGUAGE_DISPLAY_NAME: "Português (Brasil)",
     /**
      * Dialog
