@@ -6,7 +6,8 @@
     "types": "dist/index.d.ts",
     "author": "pepeien",
     "scripts": {
-        "build": "npm version $ver && tsc && npm publish"
+        "build": "tsc",
+        "publish": "tsc && npm publish"
     },
     "license": "MIT",
     "devDependencies": {
