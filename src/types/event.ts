@@ -8,7 +8,7 @@ interface DefaultParams {
 
 export type EventQueryableParams = Omit<DefaultParams, "orders">;
 
-export type EventCreatableParams = Pick<DefaultParams, "name">;
+export type EventCreatableParams = Omit<DefaultParams, "_id">;
 
 export type EventEditableParams = Pick<DefaultParams, "name">;
 
