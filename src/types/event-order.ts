@@ -3,7 +3,7 @@ import { Product } from "./product";
 import { ProductVariant } from "./product-variant";
 
 interface DefaultParams {
-    _id?: string;
+    id?: string;
     eventId?: string;
     status?: string;
     operatorId?: string;
@@ -14,7 +14,7 @@ interface DefaultParams {
 
 export type EventOrderQueryableParams = DefaultParams;
 
-export type EventOrderCreatableParams = Omit<DefaultParams, "_id">;
+export type EventOrderCreatableParams = Omit<DefaultParams, "id">;
 
 export type EventOrderEditableParams = Pick<DefaultParams, "status">;
 

@@ -1,7 +1,7 @@
 import { ProductVariant } from "./product-variant";
 
 interface DefaultParams {
-    _id?: string;
+    id?: string;
     name?: string;
 }
 

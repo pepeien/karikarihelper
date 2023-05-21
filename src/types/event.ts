@@ -1,14 +1,14 @@
 import { EventOrder } from "./event-order";
 
 interface DefaultParams {
-    _id?: string;
+    id?: string;
     name?: string;
     date?: Date;
 }
 
 export type EventQueryableParams = Omit<DefaultParams, "orders">;
 
-export type EventCreatableParams = Omit<DefaultParams, "_id">;
+export type EventCreatableParams = Omit<DefaultParams, "id">;
 
 export type EventEditableParams = Pick<DefaultParams, "name">;
 

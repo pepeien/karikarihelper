@@ -1,5 +1,5 @@
 interface DefaultParams {
-    _id?: string;
+    id?: string;
     realm?: string;
     title?: string;
     icon?: string;
@@ -10,9 +10,9 @@ interface DefaultParams {
 
 export type MenuQueryableParams = Omit<DefaultParams, "route" | "icon">;
 
-export type MenuCreatableParams = Omit<DefaultParams, "_id">;
+export type MenuCreatableParams = Omit<DefaultParams, "id">;
 
-export type MenuEditableParams = Omit<DefaultParams, "_id" | "parentId">;
+export type MenuEditableParams = Omit<DefaultParams, "id" | "parentId">;
 
 export interface Menu {
     _id: string;

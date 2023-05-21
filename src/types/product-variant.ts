@@ -1,14 +1,14 @@
 import { Product } from "./product";
 
 interface DefaultParams {
-    _id?: string;
+    id?: string;
     name?: string;
     productId?: string;
 }
 
 export type ProductVariantQueryableParams = DefaultParams;
 
-export type ProductVariantCreatableParams = Omit<DefaultParams, "_id">;
+export type ProductVariantCreatableParams = Omit<DefaultParams, "id">;
 
 export type ProductVariantEditableParams = Pick<DefaultParams, "name">;
 

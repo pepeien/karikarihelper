@@ -1,5 +1,5 @@
 interface DefaultParams {
-    _id?: string;
+    id?: string;
     userName?: string;
     displayName?: string;
     photo?: string;
@@ -7,9 +7,9 @@ interface DefaultParams {
 
 export type OperatorQueryableParams = Omit<DefaultParams, "userName" | "photo">;
 
-export type OperatorCreatableParams = Omit<DefaultParams, "_id">;
+export type OperatorCreatableParams = Omit<DefaultParams, "id">;
 
-export type OperatorEditableParams = Omit<DefaultParams, "userName" | "_id">;
+export type OperatorEditableParams = Omit<DefaultParams, "userName" | "id">;
 
 export interface Operator {
     _id: string;
