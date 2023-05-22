@@ -49,7 +49,7 @@ export default {
 
     MENU_REGISTRY_PRODUCT_VARIANT_TITLE: "Variante",
 
-    MENU_REGISTRY_REALM_TITLE: "Reino",
+    MENU_REGISTRY_REALM_TITLE: "Barraca",
 
     /**
      * Registry

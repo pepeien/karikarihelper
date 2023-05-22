@@ -49,7 +49,7 @@ export default {
 
     MENU_REGISTRY_PRODUCT_VARIANT_TITLE: "Variant",
 
-    MENU_REGISTRY_REALM_TITLE: "Realm",
+    MENU_REGISTRY_REALM_TITLE: "Stand",
 
     /**
      * Registry
