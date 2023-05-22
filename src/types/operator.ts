@@ -1,3 +1,5 @@
+import { Realm } from "..";
+
 interface DefaultParams {
     id?: string;
     userName?: string;
@@ -18,5 +20,6 @@ export type OperatorEditableParams = Pick<
 export interface Operator {
     _id: string;
     displayName: string;
+    realm: Realm;
     photo: string;
 }
