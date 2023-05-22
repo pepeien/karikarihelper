@@ -7,9 +7,9 @@ interface DefaultParams {
     realmId?: string;
 }
 
-export type ProductQueryableParams = Omit<DefaultParams, "variants">;
+export type ProductQueryableParams = DefaultParams;
 
-export type ProductCreatableParams = Pick<DefaultParams, "name">;
+export type ProductCreatableParams = Omit<DefaultParams, "id">;
 
 export type ProductEditableParams = Pick<DefaultParams, "name">;
 
