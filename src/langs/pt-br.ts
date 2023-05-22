@@ -78,6 +78,8 @@ export default {
     REGISTRY_PRODUCT_VARIANT_NAME_INPUT: "Nome",
     REGISTRY_PRODUCT_VARIANT_PRODUCT_INPUT: "Produto",
 
+    REGISTRY_REALM_NAME_INPUT: "Nome",
+
     /**
      * Table
      */
@@ -122,6 +124,11 @@ export default {
     PRODUCT_VARIANT_NEW_TITLE: "Nova Variante de Produto",
     PRODUCT_VARIANT_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir esta variante de produto ? Esta ação é irreversível",
+
+    REALM_VIEW_TITLE: "Reino",
+    REALM_NEW_TITLE: "Novo Reino",
+    REALM_REGISTRY_DELETE_MESSAGE:
+        "Você realmente quer excluir este reino ? Esta ação é irreversível",
 
     /**
      * API Error

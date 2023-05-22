@@ -123,6 +123,11 @@ export default {
     PRODUCT_VARIANT_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this product variant ? This action is ireversable",
 
+    REALM_VIEW_TITLE: "Realm",
+    REALM_NEW_TITLE: "New Realm",
+    REALM_REGISTRY_DELETE_MESSAGE:
+        "Do you really want to delete this realm ? This action is ireversable",
+
     /**
      * API Error
      */
