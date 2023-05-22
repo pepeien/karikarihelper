@@ -41,6 +41,12 @@ export type {
     ProductQueryableParams,
     Product,
 } from "./types/product";
+export type {
+    RealmCreatableParams,
+    RealmEditableParams,
+    RealmQueryableParams,
+    Realm,
+} from "./types/realm";
 
 // Services
 export { FileService } from "./services/file";
