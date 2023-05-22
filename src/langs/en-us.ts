@@ -78,6 +78,8 @@ export default {
     REGISTRY_PRODUCT_VARIANT_NAME_INPUT: "Name",
     REGISTRY_PRODUCT_VARIANT_PRODUCT_INPUT: "Product",
 
+    REGISTRY_REALM_NAME_INPUT: "Name",
+
     /**
      * Table
      */
