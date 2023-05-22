@@ -125,10 +125,10 @@ export default {
     PRODUCT_VARIANT_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir esta variante de produto ? Esta ação é irreversível",
 
-    REALM_VIEW_TITLE: "Reino",
-    REALM_NEW_TITLE: "Novo Reino",
+    REALM_VIEW_TITLE: "Barraca",
+    REALM_NEW_TITLE: "Novo Barraca",
     REALM_REGISTRY_DELETE_MESSAGE:
-        "Você realmente quer excluir este reino ? Esta ação é irreversível",
+        "Você realmente quer excluir esta barraca ? Esta ação é irreversível",
 
     /**
      * API Error
@@ -217,10 +217,10 @@ export default {
     ERROR_JWT_REFRESH_TOKEN_NOT_FOUND: "Token de atualização é obrigatório",
     ERROR_JWT_REFRESH_TOKEN_INVALID: "Token de atualização é inválido",
 
-    ERROR_REALM_INVALID: "Os dados do reino estão inválidos",
-    ERROR_REALM_NAME_DUPLICATED: "Nome do reino já existe",
-    ERROR_REALM_NAME_GREATER_THAN_MAX_LENGTH: "Nome do reino é muito grande",
-    ERROR_REALM_NAME_LESS_THAN_MIN_LENGT: "Nome do reino é muito pequeno",
-    ERROR_REALM_NAME_REQUIRED: "Nome do reino é obrigatório",
-    ERROR_REALM_NOT_FOUND: "Reino não foi encontrado",
+    ERROR_REALM_INVALID: "Os dados da barraca estão inválidos",
+    ERROR_REALM_NAME_DUPLICATED: "Nome da barraca já existe",
+    ERROR_REALM_NAME_GREATER_THAN_MAX_LENGTH: "Nome da barraca é muito grande",
+    ERROR_REALM_NAME_LESS_THAN_MIN_LENGT: "Nome da barraca é muito pequeno",
+    ERROR_REALM_NAME_REQUIRED: "Nome da barraca é obrigatório",
+    ERROR_REALM_NOT_FOUND: "Barraca não foi encontrada",
 } as InHouseLang;

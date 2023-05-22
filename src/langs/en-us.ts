@@ -125,10 +125,10 @@ export default {
     PRODUCT_VARIANT_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this product variant ? This action is ireversable",
 
-    REALM_VIEW_TITLE: "Realm",
-    REALM_NEW_TITLE: "New Realm",
+    REALM_VIEW_TITLE: "Stand",
+    REALM_NEW_TITLE: "New Stand",
     REALM_REGISTRY_DELETE_MESSAGE:
-        "Do you really want to delete this realm ? This action is ireversable",
+        "Do you really want to delete this Stand ? This action is ireversable",
 
     /**
      * API Error
@@ -212,12 +212,12 @@ export default {
     ERROR_JWT_REFRESH_TOKEN_NOT_FOUND: "Refresh token was not found",
     ERROR_JWT_REFRESH_TOKEN_INVALID: "Refresh token is invalid",
 
-    ERROR_REALM_INVALID: "Realm is invalid",
-    ERROR_REALM_NAME_DUPLICATED: "Realm name is duplicated",
+    ERROR_REALM_INVALID: "Stand is invalid",
+    ERROR_REALM_NAME_DUPLICATED: "Stand name is duplicated",
     ERROR_REALM_NAME_GREATER_THAN_MAX_LENGTH:
-        "Realm name is greater than the max length",
-    ERROR_REALM_NAME_REQUIRED: "Realm name is required",
+        "Stand name is greater than the max length",
+    ERROR_REALM_NAME_REQUIRED: "Stand name is required",
     ERROR_REALM_NAME_LESS_THAN_MIN_LENGT:
-        "Realm name is less than the min length",
-    ERROR_REALM_NOT_FOUND: "Realm name was not found",
+        "Stand name is less than the min length",
+    ERROR_REALM_NOT_FOUND: "Stand name was not found",
 } as InHouseLang;
