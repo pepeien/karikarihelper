@@ -146,7 +146,6 @@ export default {
     ERROR_MENU_INVALID: "Menu data is invalid",
     ERROR_MENU_ICON_INVALID: "Menu icon is invalid",
     ERROR_MENU_NOT_FOUND: "Menu was not found",
-    ERROR_MENU_REALM_REQUIRED: "Menu realm is required",
     ERROR_MENU_ROUTE_DUPLICATED: "Menu route is duplicated",
     ERROR_MENU_TITLE_DUPLICATED: " Menu title is duplicated",
     ERROR_MENU_TITLE_REQUIRED: "Menu title is required",

@@ -1,6 +1,5 @@
 interface DefaultParams {
     id?: string;
-    realm?: string;
     title?: string;
     icon?: string;
     route?: string;
@@ -16,7 +15,6 @@ export type MenuEditableParams = Omit<DefaultParams, "id" | "parentId">;
 
 export interface Menu {
     _id: string;
-    realm: string;
     title: string;
     icon?: string;
     route: string;

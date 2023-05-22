@@ -147,7 +147,6 @@ export default {
     ERROR_MENU_INVALID: "Dados do menu são inválidos",
     ERROR_MENU_ICON_INVALID: "Ícone do menu é inválido",
     ERROR_MENU_NOT_FOUND: "Menu não foi encontrado",
-    ERROR_MENU_REALM_REQUIRED: "Realm do menu é obrigatório",
     ERROR_MENU_ROUTE_DUPLICATED: "Rota do menu já existe",
     ERROR_MENU_TITLE_DUPLICATED: " Título do menu já existe",
     ERROR_MENU_TITLE_REQUIRED: "Título do menu é obrigatório",
