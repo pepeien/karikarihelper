@@ -49,6 +49,8 @@ export default {
 
     MENU_REGISTRY_PRODUCT_VARIANT_TITLE: "Variante",
 
+    MENU_REGISTRY_REALM_TITLE: "Reino",
+
     /**
      * Registry
      */
@@ -207,4 +209,11 @@ export default {
         "Configurações do token de atualização são inválidas, por favor, contate do administrador",
     ERROR_JWT_REFRESH_TOKEN_NOT_FOUND: "Token de atualização é obrigatório",
     ERROR_JWT_REFRESH_TOKEN_INVALID: "Token de atualização é inválido",
+
+    ERROR_REALM_INVALID: "Os dados do reino estão inválidos",
+    ERROR_REALM_NAME_DUPLICATED: "Nome do reino já existe",
+    ERROR_REALM_NAME_GREATER_THAN_MAX_LENGTH: "Nome do reino é muito grande",
+    ERROR_REALM_NAME_LESS_THAN_MIN_LENGT: "Nome do reino é muito pequeno",
+    ERROR_REALM_NAME_REQUIRED: "Nome do reino é obrigatório",
+    ERROR_REALM_NOT_FOUND: "Reino não foi encontrado",
 } as InHouseLang;

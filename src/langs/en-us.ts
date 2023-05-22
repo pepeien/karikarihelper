@@ -49,6 +49,8 @@ export default {
 
     MENU_REGISTRY_PRODUCT_VARIANT_TITLE: "Variant",
 
+    MENU_REGISTRY_REALM_TITLE: "Realm",
+
     /**
      * Registry
      */
@@ -202,4 +204,13 @@ export default {
         "JWT refresh token settings are invalid, please contact the administrator",
     ERROR_JWT_REFRESH_TOKEN_NOT_FOUND: "Refresh token was not found",
     ERROR_JWT_REFRESH_TOKEN_INVALID: "Refresh token is invalid",
+
+    ERROR_REALM_INVALID: "Realm is invalid",
+    ERROR_REALM_NAME_DUPLICATED: "Realm name is duplicated",
+    ERROR_REALM_NAME_GREATER_THAN_MAX_LENGTH:
+        "Realm name is greater than the max length",
+    ERROR_REALM_NAME_REQUIRED: "Realm name is required",
+    ERROR_REALM_NAME_LESS_THAN_MIN_LENGT:
+        "Realm name is less than the min length",
+    ERROR_REALM_NOT_FOUND: "Realm name was not found",
 } as InHouseLang;
