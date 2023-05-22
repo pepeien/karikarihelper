@@ -67,7 +67,6 @@ export default {
     REGISTRY_EVENT_ORDER_OPERATOR_INPUT: "Operador(a)",
     REGISTRY_EVENT_ORDER_CLIENT_INPUT: "Cliente",
     REGISTRY_EVENT_ORDER_PRODUCT_INPUT: "Produto",
-    REGISTRY_EVENT_ORDER_REALM_INPUT: "Barraca",
     REGISTRY_EVENT_ORDER_PRODUCT_VARIANT_INPUT: "Variante do produto",
 
     REGISTRY_OPERATOR_DISPLAY_NAME_INPUT: "Nome de exibição",
@@ -194,6 +193,8 @@ export default {
     ERROR_PRODUCT_NAME_LESS_THAN_MIN_LENGTH: "Nome do produto é muito pequeno",
     ERROR_PRODUCT_NAME_REQUIRED: "Nome do produto é obrigatório",
     ERROR_PRODUCT_NOT_FOUND: "Produto não foi encontrado",
+    ERROR_PRODUCT_REALM_INVALID: "Barraca do produto é inválida",
+    ERROR_PRODUCT_REALM_REQUIRED: "Barraca do produto é obrigatória",
     ERROR_PRODUCT_VARIANT_DUPLICATED: "Variante do produto é duplicada",
     ERROR_PRODUCT_VARIANT_INVALID: "Variante do produto é inválida",
 
@@ -208,6 +209,10 @@ export default {
     ERROR_VARIANT_PRODUCT_INVALID: "Produto da variante de produto é inválido",
     ERROR_VARIANT_PRODUCT_REQUIRED:
         "Produto da variante de produto é obrigatório",
+    ERROR_VARIANT_PRODUCT_REALM_INVALID:
+        "Barraca da varianta de produto é inválida",
+    ERROR_VARIANT_PRODUCT_REALM_REQUIRED:
+        "Barraca da varianta de produto é obrigatória",
 
     ERROR_JWT_SETTINGS_INVALID:
         "Configurações do JWT são inválidas, por favor, contate do administrador",

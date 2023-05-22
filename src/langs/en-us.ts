@@ -67,7 +67,6 @@ export default {
     REGISTRY_EVENT_ORDER_OPERATOR_INPUT: "Operator",
     REGISTRY_EVENT_ORDER_CLIENT_INPUT: "Client",
     REGISTRY_EVENT_ORDER_PRODUCT_INPUT: "Product",
-    REGISTRY_EVENT_ORDER_REALM_INPUT: "Stand",
     REGISTRY_EVENT_ORDER_PRODUCT_VARIANT_INPUT: "Product Variant",
 
     REGISTRY_OPERATOR_DISPLAY_NAME_INPUT: "Display Name",
@@ -190,6 +189,8 @@ export default {
         "Product name is less than the min length",
     ERROR_PRODUCT_NAME_REQUIRED: "Product name is required",
     ERROR_PRODUCT_NOT_FOUND: "Product was not found",
+    ERROR_PRODUCT_REALM_INVALID: "Product stand is invalid",
+    ERROR_PRODUCT_REALM_REQUIRED: "Product stand is required",
     ERROR_PRODUCT_VARIANT_DUPLICATED: "Product variant is duplicated",
     ERROR_PRODUCT_VARIANT_INVALID: "Product variant is invalid",
 
@@ -203,6 +204,8 @@ export default {
     ERROR_VARIANT_NOT_FOUND: "Product variant was not found",
     ERROR_VARIANT_PRODUCT_INVALID: "Product variant product is invalid",
     ERROR_VARIANT_PRODUCT_REQUIRED: "Product variant product is required",
+    ERROR_VARIANT_PRODUCT_REALM_INVALID: "Product variant stand is invalid",
+    ERROR_VARIANT_PRODUCT_REALM_REQUIRED: "Product variant stand is required",
 
     ERROR_JWT_SETTINGS_INVALID:
         "JWT settings are invalid, please contact the administrator",
