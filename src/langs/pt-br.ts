@@ -47,8 +47,6 @@ export default {
     MENU_REGISTRY_PRODUCT_TITLE: "Produto",
     MENU_REGISTRY_PRODUCT_INDEX_TITLE: "Item",
 
-    MENU_REGISTRY_PRODUCT_VARIANT_TITLE: "Variante",
-
     MENU_REGISTRY_REALM_TITLE: "Barraca",
 
     /**
@@ -67,7 +65,6 @@ export default {
     REGISTRY_EVENT_ORDER_OPERATOR_INPUT: "Operador(a)",
     REGISTRY_EVENT_ORDER_CLIENT_INPUT: "Cliente",
     REGISTRY_EVENT_ORDER_PRODUCT_INPUT: "Produto",
-    REGISTRY_EVENT_ORDER_PRODUCT_VARIANT_INPUT: "Variante do produto",
 
     REGISTRY_OPERATOR_DISPLAY_NAME_INPUT: "Nome de exibição",
     REGISTRY_OPERATOR_USER_NAME_INPUT: "Nome de usuário",
@@ -76,9 +73,6 @@ export default {
 
     REGISTRY_PRODUCT_NAME_INPUT: "Nome",
     REGISTRY_PRODUCT_REALM_INPUT: "Barraca",
-
-    REGISTRY_PRODUCT_VARIANT_NAME_INPUT: "Nome",
-    REGISTRY_PRODUCT_VARIANT_PRODUCT_INPUT: "Produto",
 
     REGISTRY_REALM_NAME_INPUT: "Nome",
 
@@ -121,11 +115,6 @@ export default {
     PRODUCT_NEW_TITLE: "Novo Produto",
     PRODUCT_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir este produto ? Esta ação é irreversível",
-
-    PRODUCT_VARIANT_VIEW_TITLE: "Variante de Produto",
-    PRODUCT_VARIANT_NEW_TITLE: "Nova Variante de Produto",
-    PRODUCT_VARIANT_REGISTRY_DELETE_MESSAGE:
-        "Você realmente quer excluir esta variante de produto ? Esta ação é irreversível",
 
     REALM_VIEW_TITLE: "Barraca",
     REALM_NEW_TITLE: "Novo Barraca",
@@ -180,7 +169,6 @@ export default {
     ERROR_ORDER_INVALID: "Os dados do pedido estão inválidos",
     ERROR_ORDER_ITEM_INVALID: "O item do pedido é inválido",
     ERROR_ORDER_ITEM_REQUIRED: "O item do pedido é obrigatório",
-    ERROR_ORDER_ITEM_VARIANT_INVALID: "A variante do item do pedido é inválido",
     ERROR_ORDER_NOT_FOUND: "Pedido não foi encontrado",
     ERROR_ORDER_OPERATOR_INVALID: "Operador(a) do pedido é inválido",
     ERROR_ORDER_OPERATOR_REQUIRED: "Operador(a) do pedido é obrigatório",
@@ -194,24 +182,6 @@ export default {
     ERROR_PRODUCT_NOT_FOUND: "Produto não foi encontrado",
     ERROR_PRODUCT_REALM_INVALID: "Barraca do produto é inválida",
     ERROR_PRODUCT_REALM_REQUIRED: "Barraca do produto é obrigatória",
-    ERROR_PRODUCT_VARIANT_DUPLICATED: "Variante do produto é duplicada",
-    ERROR_PRODUCT_VARIANT_INVALID: "Variante do produto é inválida",
-
-    ERROR_VARIANT_INVALID: "Os dados da variante de produto são inválidos",
-    ERROR_VARIANT_NAME_DUPLICATED: "Nome da variante de produto já existe",
-    ERROR_VARIANT_NAME_GREATER_THAN_MAX_LENGTH:
-        "Nome da variante de produto é muito grande",
-    ERROR_VARIANT_NAME_LESS_THAN_MIN_LENGTH:
-        "Nome da variante de produto é muito pequeno",
-    ERROR_VARIANT_NAME_REQUIRED: "Nome da variante de produto é obrigatório",
-    ERROR_VARIANT_NOT_FOUND: "Variante de produto não foi encontrada",
-    ERROR_VARIANT_PRODUCT_INVALID: "Produto da variante de produto é inválido",
-    ERROR_VARIANT_PRODUCT_REQUIRED:
-        "Produto da variante de produto é obrigatório",
-    ERROR_VARIANT_PRODUCT_REALM_INVALID:
-        "Barraca da varianta de produto é inválida",
-    ERROR_VARIANT_PRODUCT_REALM_REQUIRED:
-        "Barraca da varianta de produto é obrigatória",
 
     ERROR_JWT_SETTINGS_INVALID:
         "Configurações do JWT são inválidas, por favor, contate do administrador",

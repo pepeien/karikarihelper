@@ -30,12 +30,6 @@ export type {
     Operator,
 } from "./types/operator";
 export type {
-    ProductVariantCreatableParams,
-    ProductVariantEditableParams,
-    ProductVariantQueryableParams,
-    ProductVariant,
-} from "./types/product-variant";
-export type {
     ProductCreatableParams,
     ProductEditableParams,
     ProductQueryableParams,

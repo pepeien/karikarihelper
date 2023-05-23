@@ -47,8 +47,6 @@ export default {
     MENU_REGISTRY_PRODUCT_TITLE: "Product",
     MENU_REGISTRY_PRODUCT_INDEX_TITLE: "Item",
 
-    MENU_REGISTRY_PRODUCT_VARIANT_TITLE: "Variant",
-
     MENU_REGISTRY_REALM_TITLE: "Stand",
 
     /**
@@ -67,7 +65,6 @@ export default {
     REGISTRY_EVENT_ORDER_OPERATOR_INPUT: "Operator",
     REGISTRY_EVENT_ORDER_CLIENT_INPUT: "Client",
     REGISTRY_EVENT_ORDER_PRODUCT_INPUT: "Product",
-    REGISTRY_EVENT_ORDER_PRODUCT_VARIANT_INPUT: "Product Variant",
 
     REGISTRY_OPERATOR_DISPLAY_NAME_INPUT: "Display Name",
     REGISTRY_OPERATOR_USER_NAME_INPUT: "User Name",
@@ -76,9 +73,6 @@ export default {
 
     REGISTRY_PRODUCT_NAME_INPUT: "Name",
     REGISTRY_PRODUCT_REALM_INPUT: "Stand",
-
-    REGISTRY_PRODUCT_VARIANT_NAME_INPUT: "Name",
-    REGISTRY_PRODUCT_VARIANT_PRODUCT_INPUT: "Product",
 
     REGISTRY_REALM_NAME_INPUT: "Name",
 
@@ -121,11 +115,6 @@ export default {
     PRODUCT_NEW_TITLE: "New Product",
     PRODUCT_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this product ? This action is ireversable",
-
-    PRODUCT_VARIANT_VIEW_TITLE: "Product Variant",
-    PRODUCT_VARIANT_NEW_TITLE: "New Product Variant",
-    PRODUCT_VARIANT_REGISTRY_DELETE_MESSAGE:
-        "Do you really want to delete this product variant ? This action is ireversable",
 
     REALM_VIEW_TITLE: "Stand",
     REALM_NEW_TITLE: "New Stand",
@@ -175,7 +164,6 @@ export default {
     ERROR_ORDER_INVALID: "Order is invalid",
     ERROR_ORDER_ITEM_INVALID: "Order item is invalid",
     ERROR_ORDER_ITEM_REQUIRED: "Order item is required",
-    ERROR_ORDER_ITEM_VARIANT_INVALID: "Order item variant is invalid",
     ERROR_ORDER_NOT_FOUND: "Order was not found",
     ERROR_ORDER_OPERATOR_INVALID: "Order operator is invalid",
     ERROR_ORDER_OPERATOR_REQUIRED: "Order operator is required",
@@ -190,21 +178,6 @@ export default {
     ERROR_PRODUCT_NOT_FOUND: "Product was not found",
     ERROR_PRODUCT_REALM_INVALID: "Product stand is invalid",
     ERROR_PRODUCT_REALM_REQUIRED: "Product stand is required",
-    ERROR_PRODUCT_VARIANT_DUPLICATED: "Product variant is duplicated",
-    ERROR_PRODUCT_VARIANT_INVALID: "Product variant is invalid",
-
-    ERROR_VARIANT_INVALID: "Product variant is invalid",
-    ERROR_VARIANT_NAME_DUPLICATED: "Product variant name is duplicated",
-    ERROR_VARIANT_NAME_GREATER_THAN_MAX_LENGTH:
-        "Product variant name is is greater than the max length",
-    ERROR_VARIANT_NAME_LESS_THAN_MIN_LENGTH:
-        "Product variant name is less than the min length",
-    ERROR_VARIANT_NAME_REQUIRED: "Product variant name is required",
-    ERROR_VARIANT_NOT_FOUND: "Product variant was not found",
-    ERROR_VARIANT_PRODUCT_INVALID: "Product variant product is invalid",
-    ERROR_VARIANT_PRODUCT_REQUIRED: "Product variant product is required",
-    ERROR_VARIANT_PRODUCT_REALM_INVALID: "Product variant stand is invalid",
-    ERROR_VARIANT_PRODUCT_REALM_REQUIRED: "Product variant stand is required",
 
     ERROR_JWT_SETTINGS_INVALID:
         "JWT settings are invalid, please contact the administrator",
