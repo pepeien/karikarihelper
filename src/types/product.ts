@@ -18,5 +18,5 @@ export interface Product {
     name: string;
     realm: Realm;
     parent?: Product;
-    variants: Array<Omit<Product, "variants" | "realm">>;
+    variants: Omit<Product, "variants" | "realm">[];
 }

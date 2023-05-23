@@ -1,6 +1,5 @@
 import { Operator } from "./operator";
 import { Product } from "./product";
-import { ProductVariant } from "./product-variant";
 
 interface DefaultParams {
     id?: string;
@@ -8,8 +7,7 @@ interface DefaultParams {
     status?: string;
     operatorId?: string;
     clientName?: string;
-    itemId?: string;
-    variantId?: string;
+    itemsId?: string[];
 }
 
 export type EventOrderQueryableParams = DefaultParams;
@@ -30,6 +28,5 @@ export interface EventOrder {
     status: OrderStatus;
     operator: Operator;
     client: string;
-    item: Omit<Product, "variants">;
-    variant?: Omit<ProductVariant, "product">;
+    items: Omit<Product, "variants">[];
 }

@@ -16,5 +16,5 @@ export interface Event {
     _id: string;
     name: string;
     date: Date;
-    orders: Array<Omit<EventOrder, "event">>;
+    orders: Omit<EventOrder, "event">[];
 }
