@@ -4,6 +4,7 @@ interface DefaultParams {
     id?: string;
     name?: string;
     realmId?: string;
+    parentId?: string;
 }
 
 export type ProductQueryableParams = DefaultParams;
@@ -16,5 +17,6 @@ export interface Product {
     _id: string;
     name: string;
     realm: Realm;
+    parent?: Product;
     variants: Array<Omit<Product, "variants" | "realm">>;
 }
