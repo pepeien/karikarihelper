@@ -1,4 +1,3 @@
-import { ProductVariant } from "./product-variant";
 import { Realm } from "./realm";
 
 interface DefaultParams {
@@ -17,5 +16,5 @@ export interface Product {
     _id: string;
     name: string;
     realm: Realm;
-    variants: Array<Omit<ProductVariant, "variant" | "realm">>;
+    variants: Array<Omit<Product, "variants" | "realm">>;
 }
