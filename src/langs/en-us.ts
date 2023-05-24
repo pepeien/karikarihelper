@@ -92,32 +92,32 @@ export default {
     REGISTRY_EDITOR_EDITION_ACTION: "Edit",
     REGISTRY_EDITOR_CANCEL_ACTION: "Cancel",
 
-    EVENT_VIEW_TITLE: "Event",
+    EVENT_VIEW_TITLE: "Events",
     EVENT_NEW_TITLE: "New Event",
     EVENT_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this event ? This action is ireversable",
 
-    EVENT_ORDER_VIEW_TITLE: "Order",
+    EVENT_ORDER_VIEW_TITLE: "Orders",
     EVENT_ORDER_NEW_TITLE: "New Order",
     EVENT_ORDER_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this order ? This action is ireversable",
 
-    MENU_VIEW_TITLE: "Menu",
+    MENU_VIEW_TITLE: "Menus",
     MENU_NEW_TITLE: "New Menu",
     MENU_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this menu ? This action is ireversable",
 
-    OPERATOR_VIEW_TITLE: "Operator",
+    OPERATOR_VIEW_TITLE: "Operators",
     OPERATOR_NEW_TITLE: "New Operator",
     OPERATOR_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this operator ? This action is ireversable",
 
-    PRODUCT_VIEW_TITLE: "Product",
+    PRODUCT_VIEW_TITLE: "Products",
     PRODUCT_NEW_TITLE: "New Product",
     PRODUCT_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this product ? This action is ireversable",
 
-    REALM_VIEW_TITLE: "Stand",
+    REALM_VIEW_TITLE: "Stands",
     REALM_NEW_TITLE: "New Stand",
     REALM_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this Stand ? This action is ireversable",

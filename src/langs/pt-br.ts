@@ -92,32 +92,32 @@ export default {
     REGISTRY_EDITOR_EDITION_ACTION: "Editar",
     REGISTRY_EDITOR_CANCEL_ACTION: "Cancelar",
 
-    EVENT_VIEW_TITLE: "Evento",
+    EVENT_VIEW_TITLE: "Eventos",
     EVENT_NEW_TITLE: "Novo Evento",
     EVENT_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir este evento ? Esta ação é irreversível",
 
-    EVENT_ORDER_VIEW_TITLE: "Pedido",
+    EVENT_ORDER_VIEW_TITLE: "Pedidos",
     EVENT_ORDER_NEW_TITLE: "Novo Pedido",
     EVENT_ORDER_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir este pedido ? Esta ação é irreversível",
 
-    MENU_VIEW_TITLE: "Menu",
+    MENU_VIEW_TITLE: "Menus",
     MENU_NEW_TITLE: "Novo Menu",
     MENU_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir este menu ? Esta ação é irreversível",
 
-    OPERATOR_VIEW_TITLE: "Operador",
+    OPERATOR_VIEW_TITLE: "Operadores",
     OPERATOR_NEW_TITLE: "Novo Operador",
     OPERATOR_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir este(a) operador(a) ? Esta ação é irreversível",
 
-    PRODUCT_VIEW_TITLE: "Produto",
+    PRODUCT_VIEW_TITLE: "Produtos",
     PRODUCT_NEW_TITLE: "Novo Produto",
     PRODUCT_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir este produto ? Esta ação é irreversível",
 
-    REALM_VIEW_TITLE: "Barraca",
+    REALM_VIEW_TITLE: "Barracas",
     REALM_NEW_TITLE: "Novo Barraca",
     REALM_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir esta barraca ? Esta ação é irreversível",
