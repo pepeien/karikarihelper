@@ -1,18 +1,20 @@
 import { Operator } from "./operator";
 import { Product } from "./product";
+import { Realm } from "./realm";
 
 interface DefaultParams {
     id?: string;
     eventId?: string;
     status?: string;
     operatorId?: string;
+    realmId?: string;
     clientName?: string;
     itemsId?: string[];
 }
 
 export type EventOrderQueryableParams = DefaultParams;
 
-export type EventOrderCreatableParams = Omit<DefaultParams, "id">;
+export type EventOrderCreatableParams = Omit<DefaultParams, "id" | "realmId">;
 
 export type EventOrderEditableParams = Pick<DefaultParams, "status">;
 
@@ -27,6 +29,7 @@ export interface EventOrder {
     event: Omit<Event, "orders">;
     status: OrderStatus;
     operator: Operator;
+    realm: Realm;
     client: string;
     items: Omit<Product, "variants">[];
 }
