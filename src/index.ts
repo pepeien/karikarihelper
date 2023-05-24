@@ -2,11 +2,11 @@
 export { Langs, LangKey } from "./langs";
 // Types
 export { ApiResponseWrapper } from "./types/api-response-wrapper";
+export { OrderStatus } from "./types/event-order";
 export type {
     EventOrderCreatableParams,
     EventOrderEditableParams,
     EventOrderQueryableParams,
-    OrderStatus,
     EventOrder,
 } from "./types/event-order";
 export type {
