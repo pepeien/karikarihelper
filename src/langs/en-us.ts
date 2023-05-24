@@ -40,8 +40,7 @@ export default {
 
     MENU_REGISTRY_OPERATOR_TITLE: "Operators",
 
-    MENU_REGISTRY_PRODUCT_TITLE: "Product",
-    MENU_REGISTRY_PRODUCT_INDEX_TITLE: "Products",
+    MENU_REGISTRY_PRODUCT_TITLE: "Products",
 
     MENU_REGISTRY_REALM_TITLE: "Stands",
 
