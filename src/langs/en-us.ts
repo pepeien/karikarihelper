@@ -88,11 +88,17 @@ export default {
     REGISTRY_EDITOR_CANCEL_ACTION: "Cancel",
 
     EVENT_VIEW_TITLE: "Events",
+    EVENT_VIEW_FINISHED_TITLE: "Finished",
+    EVENT_VIEW_ONGOING_TITLE: "Ongoing",
+    EVENT_VIEW_UPCOMING_TITLE: "Upcoming",
     EVENT_NEW_TITLE: "New Event",
     EVENT_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this event ? This action is ireversable",
 
     EVENT_ORDER_VIEW_TITLE: "Orders",
+    EVENT_ORDER_VIEW_PICKED_UP_TITLE: "Picked Up",
+    EVENT_ORDER_VIEW_COOKING_TITLE: "Cooking",
+    EVENT_ORDER_VIEW_READY_TITLE: "Ready",
     EVENT_ORDER_NEW_TITLE: "New Order",
     EVENT_ORDER_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this order ? This action is ireversable",

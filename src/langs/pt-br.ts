@@ -88,11 +88,17 @@ export default {
     REGISTRY_EDITOR_CANCEL_ACTION: "Cancelar",
 
     EVENT_VIEW_TITLE: "Eventos",
+    EVENT_VIEW_FINISHED_TITLE: "Finalizado",
+    EVENT_VIEW_ONGOING_TITLE: "Acontecendo",
+    EVENT_VIEW_UPCOMING_TITLE: "Por vir",
     EVENT_NEW_TITLE: "Novo Evento",
     EVENT_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir este evento ? Esta ação é irreversível",
 
     EVENT_ORDER_VIEW_TITLE: "Pedidos",
+    EVENT_ORDER_VIEW_PICKED_UP_TITLE: "Buscado",
+    EVENT_ORDER_VIEW_COOKING_TITLE: "Cozinhando",
+    EVENT_ORDER_VIEW_READY_TITLE: "Pronto",
     EVENT_ORDER_NEW_TITLE: "Novo Pedido",
     EVENT_ORDER_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir este pedido ? Esta ação é irreversível",
