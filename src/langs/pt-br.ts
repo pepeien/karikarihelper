@@ -28,26 +28,22 @@ export default {
     MENU_TRANSLATE_TITLE: "Idioma",
     MENU_LOG_OUT_TITLE: "Sair",
 
-    MENU_EVENT_TITLE: "Evento",
-
-    MENU_PROMPTER_TITLE: "Prompter",
-
     MENU_HOME_TITLE: "Início",
 
     MENU_REGISTRY_TITLE: "Registro",
 
     MENU_REGISTRY_EVENT_TITLE: "Evento",
     MENU_REGISTRY_EVENT_INDEX_TITLE: "Eventos",
-    MENU_REGISTRY_EVENT_ORDER_TITLE: "Pedido",
+    MENU_REGISTRY_EVENT_ORDER_TITLE: "Pedidos",
 
-    MENU_REGISTRY_MENU_TITLE: "Menu",
+    MENU_REGISTRY_MENU_TITLE: "Menus",
 
-    MENU_REGISTRY_OPERATOR_TITLE: "Operador",
+    MENU_REGISTRY_OPERATOR_TITLE: "Operadores",
 
     MENU_REGISTRY_PRODUCT_TITLE: "Produto",
     MENU_REGISTRY_PRODUCT_INDEX_TITLE: "Produtos",
 
-    MENU_REGISTRY_REALM_TITLE: "Barraca",
+    MENU_REGISTRY_REALM_TITLE: "Barracas",
 
     /**
      * Registry
