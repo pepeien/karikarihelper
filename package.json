@@ -7,7 +7,7 @@
     "author": "pepeien",
     "scripts": {
         "build": "tsc",
-        "build-publish": "tsc && npm publish"
+        "deploy": "tsc && npm publish"
     },
     "license": "MIT",
     "devDependencies": {
