@@ -16,5 +16,8 @@ export interface Event {
     _id: string;
     name: string;
     date: Date;
-    orders: Omit<EventOrder, "event">[];
+    orders: Pick<
+        EventOrder,
+        "_id" | "status" | "client" | "operator" | "realm" | "items"
+    >[];
 }

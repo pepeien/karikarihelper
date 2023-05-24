@@ -20,6 +20,6 @@ export type OperatorEditableParams = Pick<
 export interface Operator {
     _id: string;
     displayName: string;
-    realm: Realm;
+    realm: Pick<Realm, "_id" | "name">;
     photo: string;
 }

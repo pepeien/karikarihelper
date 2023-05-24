@@ -16,7 +16,7 @@ export type ProductEditableParams = Pick<DefaultParams, "name">;
 export interface Product {
     _id: string;
     name: string;
-    realm: Realm;
-    parent?: Product;
-    variants: Omit<Product, "variants" | "realm">[];
+    realm: Pick<Realm, "_id" | "name">;
+    parent?: Pick<Product, "_id" | "name">;
+    variants: Pick<Product, "_id" | "name">[];
 }

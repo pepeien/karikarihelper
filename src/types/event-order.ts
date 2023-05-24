@@ -1,3 +1,4 @@
+import { Event } from "./event";
 import { Operator } from "./operator";
 import { Product } from "./product";
 import { Realm } from "./realm";
@@ -28,8 +29,8 @@ export interface EventOrder {
     _id: string;
     event: Omit<Event, "orders">;
     status: OrderStatus;
-    operator: Operator;
-    realm: Realm;
+    operator: Pick<Operator, "_id" | "displayName">;
+    realm: Pick<Realm, "_id" | "name">;
     client: string;
-    items: Omit<Product, "variants">[];
+    items: Pick<Product, "_id" | "name">[];
 }
