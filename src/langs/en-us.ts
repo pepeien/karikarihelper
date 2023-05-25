@@ -93,35 +93,35 @@ export default {
     EVENT_VIEW_UPCOMING_TITLE: "Upcoming",
     EVENT_NEW_TITLE: "New Event",
     EVENT_REGISTRY_DELETE_MESSAGE:
-        "Do you really want to delete this event ? This action is ireversable",
+        "Do you really want to delete this event ? This action is irreversible",
 
     EVENT_ORDER_VIEW_TITLE: "Orders",
     EVENT_ORDER_VIEW_PICKED_UP_TITLE: "Picked Up",
-    EVENT_ORDER_VIEW_COOKING_TITLE: "Cooking",
+    EVENT_ORDER_VIEW_COOKING_TITLE: "Preparing",
     EVENT_ORDER_VIEW_READY_TITLE: "Ready",
     EVENT_ORDER_NEW_TITLE: "New Order",
     EVENT_ORDER_REGISTRY_DELETE_MESSAGE:
-        "Do you really want to delete this order ? This action is ireversable",
+        "Do you really want to delete this order ? This action is irreversible",
 
     MENU_VIEW_TITLE: "Menus",
     MENU_NEW_TITLE: "New Menu",
     MENU_REGISTRY_DELETE_MESSAGE:
-        "Do you really want to delete this menu ? This action is ireversable",
+        "Do you really want to delete this menu ? This action is irreversible",
 
     OPERATOR_VIEW_TITLE: "Operators",
     OPERATOR_NEW_TITLE: "New Operator",
     OPERATOR_REGISTRY_DELETE_MESSAGE:
-        "Do you really want to delete this operator ? This action is ireversable",
+        "Do you really want to delete this operator ? This action is irreversible",
 
     PRODUCT_VIEW_TITLE: "Products",
     PRODUCT_NEW_TITLE: "New Product",
     PRODUCT_REGISTRY_DELETE_MESSAGE:
-        "Do you really want to delete this product ? This action is ireversable",
+        "Do you really want to delete this product ? This action is irreversible",
 
     REALM_VIEW_TITLE: "Stands",
     REALM_NEW_TITLE: "New Stand",
     REALM_REGISTRY_DELETE_MESSAGE:
-        "Do you really want to delete this Stand ? This action is ireversable",
+        "Do you really want to delete this stand ? This action is irreversible",
 
     /**
      * API Error
