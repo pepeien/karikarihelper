@@ -69,6 +69,7 @@ export default {
 
     REGISTRY_PRODUCT_NAME_INPUT: "Name",
     REGISTRY_PRODUCT_REALM_INPUT: "Stand",
+    REGISTRY_PRODUCT_PARENT_INPUT: "Base Product",
 
     REGISTRY_REALM_NAME_INPUT: "Name",
 
@@ -180,6 +181,7 @@ export default {
     ERROR_PRODUCT_NOT_FOUND: "Product was not found",
     ERROR_PRODUCT_REALM_INVALID: "Product stand is invalid",
     ERROR_PRODUCT_REALM_REQUIRED: "Product stand is required",
+    ERROR_PRODUCT_PARENT_INVALID: "Base product is invalid",
 
     ERROR_JWT_SETTINGS_INVALID:
         "JWT settings are invalid, please contact the administrator",

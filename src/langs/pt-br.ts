@@ -69,6 +69,7 @@ export default {
 
     REGISTRY_PRODUCT_NAME_INPUT: "Nome",
     REGISTRY_PRODUCT_REALM_INPUT: "Barraca",
+    REGISTRY_PRODUCT_PARENT_INPUT: "Produto base",
 
     REGISTRY_REALM_NAME_INPUT: "Nome",
 
@@ -184,6 +185,7 @@ export default {
     ERROR_PRODUCT_NOT_FOUND: "Produto não foi encontrado",
     ERROR_PRODUCT_REALM_INVALID: "Barraca do produto é inválida",
     ERROR_PRODUCT_REALM_REQUIRED: "Barraca do produto é obrigatória",
+    ERROR_PRODUCT_PARENT_INVALID: "Produto base é inválido",
 
     ERROR_JWT_SETTINGS_INVALID:
         "Configurações do JWT são inválidas, por favor, contate do administrador",
