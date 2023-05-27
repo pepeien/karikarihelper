@@ -15,6 +15,7 @@ export type {
     EventQueryableParams,
     Event,
 } from "./types/event";
+export type { FilteredEvents } from "./types/filtered-events";
 export { InHouseLang } from "./types/language";
 export { FileType, FileTypes } from "./types/mime-file-types";
 export type {
