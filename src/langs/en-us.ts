@@ -134,6 +134,7 @@ export default {
     ERROR_EVENT_NAME_REQUIRED: "Event name is required",
     ERROR_EVENT_ORDER_INVALID: "Event order is invalid",
     ERROR_EVENT_ORDER_DUPLICATED: "Event order is duplicated",
+    ERROR_EVENT_IS_CLOSED: "Event is closed",
 
     ERROR_MENU_INVALID: "Menu data is invalid",
     ERROR_MENU_ICON_INVALID: "Menu icon is invalid",

@@ -135,6 +135,7 @@ export default {
     ERROR_EVENT_NAME_REQUIRED: "Nome do evento é obrigatório",
     ERROR_EVENT_ORDER_INVALID: "Pedido do evento é inválido",
     ERROR_EVENT_ORDER_DUPLICATED: "Pedido do evento já existe",
+    ERROR_EVENT_IS_CLOSED: "Event está fechado",
 
     ERROR_MENU_INVALID: "Dados do menu são inválidos",
     ERROR_MENU_ICON_INVALID: "Ícone do menu é inválido",

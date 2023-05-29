@@ -11,7 +11,7 @@ export type EventQueryableParams = Omit<DefaultParams, "orders">;
 
 export type EventCreatableParams = Omit<DefaultParams, "id">;
 
-export type EventEditableParams = Pick<DefaultParams, "name">;
+export type EventEditableParams = Pick<DefaultParams, "name" | "isOpen">;
 
 export interface Event {
     _id: string;
