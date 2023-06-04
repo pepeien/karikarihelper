@@ -36,6 +36,7 @@ export type {
     ProductQueryableParams,
     Product,
 } from "./types/product";
+export type { QrCodeRseponse } from "./types/qr-code-response";
 export type {
     RealmCreatableParams,
     RealmEditableParams,
