@@ -78,6 +78,12 @@ export default {
      */
     TABLE_ENTRY_EDIT_TITLE: "Editar",
     TABLE_ENTRY_DELETE_TITLE: "Deletar",
+    PAGINATOR_ITEMS_PER_PAGE_LABEL: "Itens por página:",
+    PAGINATOR_PREVIOUS_PAGE_LABEL: "Página anterior",
+    PAGINATOR_NEXT_PAGE_LABEL: "Próxima página",
+    PAGINATOR_FIRST_PAGE_LABEL: "Primeira página",
+    PAGINATOR_LAST_PAGE_LABEL: "Última página",
+    PAGINATOR_RANGE_CONNECTOR_LABEL: "de",
 
     /**
      * View
@@ -89,7 +95,7 @@ export default {
     REGISTRY_EDITOR_CANCEL_ACTION: "Cancelar",
 
     EVENT_VIEW_TITLE: "Eventos",
-    EVENT_VIEW_FINISHED_TITLE: "Finalizado",
+    EVENT_VIEW_FINISHED_TITLE: "Concluído",
     EVENT_VIEW_ONGOING_TITLE: "Acontecendo",
     EVENT_VIEW_UPCOMING_TITLE: "Por vir",
     EVENT_NEW_TITLE: "Novo Evento",
@@ -97,7 +103,7 @@ export default {
         "Você realmente quer excluir este evento ? Esta ação é irreversível",
 
     EVENT_ORDER_VIEW_TITLE: "Pedidos",
-    EVENT_ORDER_VIEW_PICKED_UP_TITLE: "Buscado",
+    EVENT_ORDER_VIEW_PICKED_UP_TITLE: "Retirado",
     EVENT_ORDER_VIEW_COOKING_TITLE: "Preparando",
     EVENT_ORDER_VIEW_READY_TITLE: "Pronto",
     EVENT_ORDER_NEW_TITLE: "Novo Pedido",

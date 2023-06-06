@@ -78,6 +78,12 @@ export default {
      */
     TABLE_ENTRY_EDIT_TITLE: "Edit",
     TABLE_ENTRY_DELETE_TITLE: "Delete",
+    PAGINATOR_ITEMS_PER_PAGE_LABEL: "Items per page:",
+    PAGINATOR_PREVIOUS_PAGE_LABEL: "Previous page",
+    PAGINATOR_NEXT_PAGE_LABEL: "Next page",
+    PAGINATOR_FIRST_PAGE_LABEL: "First page",
+    PAGINATOR_LAST_PAGE_LABEL: "Last page",
+    PAGINATOR_RANGE_CONNECTOR_LABEL: "of",
 
     /**
      * View
