@@ -25,6 +25,11 @@ export enum OrderStatus {
     PICKED_UP = "ORDER_STATUS_PICKED_UP",
 }
 
+export interface OrderItem {
+    id: string;
+    product: Product;
+}
+
 export interface EventOrder {
     _id: string;
     event: Omit<Event, "orders">;

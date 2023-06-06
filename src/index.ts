@@ -8,6 +8,7 @@ export type {
     EventOrderEditableParams,
     EventOrderQueryableParams,
     EventOrder,
+    OrderItem,
 } from "./types/event-order";
 export type {
     EventCreatableParams,
