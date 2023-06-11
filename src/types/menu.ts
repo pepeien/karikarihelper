@@ -2,7 +2,7 @@ interface DefaultParams {
     id?: string;
     title?: string;
     icon?: string;
-    roles: string[];
+    roles?: string[];
     route?: string;
     parentId?: string;
     isRootOnly?: boolean;
