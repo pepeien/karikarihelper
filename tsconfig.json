@@ -4,8 +4,7 @@
 	  	"noImplicitAny": true,
 		"declaration": true,
         "target": "ES5",
-        "module": "ES2015",
-	  	"allowJs": false,
+        "module": "CommonJS",
 	  	"moduleResolution": "node"
 	}
 }
