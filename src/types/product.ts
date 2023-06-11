@@ -3,6 +3,7 @@ import { Realm } from "./realm";
 interface DefaultParams {
     id?: string;
     name?: string;
+    realmId?: string;
     optionals?: string[];
     additionals?: string[];
 }
