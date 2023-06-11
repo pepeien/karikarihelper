@@ -24,5 +24,8 @@ export interface Menu {
     roles: string[];
     route: string;
     parent?: Pick<Menu, "_id" | "title">;
-    children: Pick<Menu, "_id" | "title" | "icon" | "route" | "children">[];
+    children: Pick<
+        Menu,
+        "_id" | "title" | "icon" | "roles" | "route" | "children"
+    >[];
 }
