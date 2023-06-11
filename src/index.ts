@@ -25,6 +25,7 @@ export type {
     MenuQueryableParams,
     Menu,
 } from "./types/menu";
+export { OperatorRole } from "./types/operator";
 export type {
     OperatorCreatableParams,
     OperatorEditableParams,
