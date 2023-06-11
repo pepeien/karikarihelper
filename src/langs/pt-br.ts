@@ -22,6 +22,12 @@ export default {
     LOGIN_BUTTON_TITLE: "Entrar",
 
     /**
+     * Operator
+     */
+    OPERATOR_ROLE_ADMIN: "Administrador",
+    OPERATOR_ROLE_WORKER: "Funcionário",
+
+    /**
      * Menu
      */
     MENU_EDIT_TITLE: "Editar",
