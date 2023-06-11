@@ -4,6 +4,7 @@ interface DefaultParams {
     id?: string;
     userName?: string;
     displayName?: string;
+    role?: string;
     realmId?: string;
     photo?: string;
 }
@@ -17,9 +18,15 @@ export type OperatorEditableParams = Pick<
     "displayName" | "photo"
 >;
 
+export enum OperatorRole {
+    ADMIN = "OPERATOR_ROLE_ADMIN",
+    WORKER = "OPERATOR_ROLE_WORKER",
+}
+
 export interface Operator {
     _id: string;
     displayName: string;
+    role: OperatorRole;
     realm: Pick<Realm, "_id" | "name">;
     photo: string;
 }

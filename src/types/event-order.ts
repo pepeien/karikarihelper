@@ -37,5 +37,5 @@ export interface EventOrder {
     operator: Pick<Operator, "_id" | "displayName">;
     realm: Pick<Realm, "_id" | "name">;
     client: string;
-    items: Pick<Product, "_id" | "name">[];
+    items: Omit<Product, "realm">[];
 }
