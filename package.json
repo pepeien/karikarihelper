@@ -1,9 +1,10 @@
 {
     "name": "karikarihelper",
-    "version": "1.6.4",
+    "version": "1.6.5",
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "type": "module",
     "author": "pepeien",
     "scripts": {
         "build": "tsc",
