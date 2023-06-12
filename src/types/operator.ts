@@ -20,6 +20,7 @@ export type OperatorEditableParams = Pick<
 
 export enum OperatorRole {
     ADMIN = "OPERATOR_ROLE_ADMIN",
+    MANAGER = "OPERATOR_ROLE_MANAGER",
     WORKER = "OPERATOR_ROLE_WORKER",
 }
 
