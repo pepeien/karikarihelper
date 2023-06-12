@@ -25,6 +25,7 @@ export default {
      * Operator
      */
     OPERATOR_ROLE_ADMIN: "Administrador",
+    OPERATOR_ROLE_MANAGER: "Gerente",
     OPERATOR_ROLE_WORKER: "Funcionário",
 
     /**
