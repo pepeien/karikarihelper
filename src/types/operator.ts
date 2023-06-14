@@ -15,7 +15,7 @@ export type OperatorCreatableParams = Omit<DefaultParams, "id">;
 
 export type OperatorEditableParams = Pick<
     DefaultParams,
-    "displayName" | "photo"
+    "displayName" | "role" | "photo"
 >;
 
 export enum OperatorRole {
