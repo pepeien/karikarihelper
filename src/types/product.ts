@@ -1,11 +1,11 @@
+import { Ingredient } from "./ingredient";
 import { Realm } from "./realm";
 
 interface DefaultParams {
     id?: string;
     name?: string;
     realmId?: string;
-    optionals?: string[];
-    additionals?: string[];
+    ingredients?: Ingredient[];
 }
 
 export type ProductQueryableParams = DefaultParams;
@@ -18,6 +18,5 @@ export interface Product {
     _id: string;
     name: string;
     realm: Pick<Realm, "_id" | "name">;
-    optionals: string[];
-    additionals: string[];
+    ingredients: Ingredient[];
 }
