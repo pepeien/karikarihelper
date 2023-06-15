@@ -77,7 +77,7 @@ export default {
 
     REGISTRY_PRODUCT_NAME_INPUT: "Nome",
     REGISTRY_PRODUCT_REALM_INPUT: "Barraca",
-    REGISTRY_PRODUCT_PARENT_INPUT: "Produto base",
+    REGISTRY_PRODUCT_INGREDIENT_INPUT: "Ingrediente",
 
     REGISTRY_REALM_NAME_INPUT: "Nome",
 
@@ -132,6 +132,10 @@ export default {
     PRODUCT_NEW_TITLE: "Novo Produto",
     PRODUCT_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir este produto ? Esta ação é irreversível",
+
+    INGREDIENT_TYPE_BASE: "Base",
+    INGREDIENT_TYPE_OPTIONAL: "Opcional",
+    INGREDIENT_TYPE_ADDITIONAL: "Adicional",
 
     REALM_VIEW_TITLE: "Barracas",
     REALM_NEW_TITLE: "Novo Barraca",

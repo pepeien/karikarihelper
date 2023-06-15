@@ -77,7 +77,7 @@ export default {
 
     REGISTRY_PRODUCT_NAME_INPUT: "Name",
     REGISTRY_PRODUCT_REALM_INPUT: "Stand",
-    REGISTRY_PRODUCT_PARENT_INPUT: "Base Product",
+    REGISTRY_PRODUCT_INGREDIENT_INPUT: "Ingredient",
 
     REGISTRY_REALM_NAME_INPUT: "Name",
 
@@ -132,6 +132,10 @@ export default {
     PRODUCT_NEW_TITLE: "New Product",
     PRODUCT_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this product ? This action is irreversible",
+
+    INGREDIENT_TYPE_BASE: "Base",
+    INGREDIENT_TYPE_OPTIONAL: "Optional",
+    INGREDIENT_TYPE_ADDITIONAL: "Additional",
 
     REALM_VIEW_TITLE: "Stands",
     REALM_NEW_TITLE: "New Stand",
