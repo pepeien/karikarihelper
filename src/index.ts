@@ -17,6 +17,8 @@ export type {
     Event,
 } from "./types/event";
 export type { FilteredEvents } from "./types/filtered-events";
+export { IngredientType } from "./types/ingredient";
+export type { Ingredient } from "./types/ingredient";
 export { InHouseLang } from "./types/language";
 export { FileType, FileTypes } from "./types/mime-file-types";
 export type {
