@@ -11,7 +11,12 @@ interface DefaultParams {
     operatorId?: string;
     realmId?: string;
     clientName?: string;
-    items?: OrderItem[];
+    items?: OrderItemParam[];
+}
+
+export interface OrderItemParam {
+    productId?: string;
+    modifications?: Ingredient[];
 }
 
 export type EventOrderQueryableParams = Omit<DefaultParams, "items">;
