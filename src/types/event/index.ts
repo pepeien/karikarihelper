@@ -7,8 +7,9 @@ export {
 export { OrderStatus } from "./order";
 export type {
     EventOrder,
-    OrderItem,
     EventOrderCreatableParams,
     EventOrderEditableParams,
     EventOrderQueryableParams,
+    OrderItem,
+    OrderItemParam,
 } from "./order";
