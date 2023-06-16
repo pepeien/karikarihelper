@@ -2,20 +2,20 @@
 export { Langs, LangKey } from "./langs";
 // Types
 export { ApiResponseWrapper } from "./types/api-response-wrapper";
-export { OrderStatus } from "./types/event-order";
+export { OrderStatus } from "./types/event/order";
 export type {
     EventOrderCreatableParams,
     EventOrderEditableParams,
     EventOrderQueryableParams,
     EventOrder,
     OrderItem,
-} from "./types/event-order";
+} from "./types/event/order";
 export type {
     EventCreatableParams,
     EventEditableParams,
     EventQueryableParams,
     Event,
-} from "./types/event";
+} from "./types/event/event";
 export type { FilteredEvents } from "./types/filtered-events";
 export { IngredientType } from "./types/ingredient";
 export type { Ingredient } from "./types/ingredient";
