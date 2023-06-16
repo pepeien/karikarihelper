@@ -1,4 +1,4 @@
-import { EventOrder } from "./event-order";
+import { EventOrder } from "./order";
 
 interface DefaultParams {
     id?: string;

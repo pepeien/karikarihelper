@@ -1,7 +1,8 @@
 import { Event } from "./event";
-import { Operator } from "./operator";
-import { Product } from "./product";
-import { Realm } from "./realm";
+import { Operator } from "../operator";
+import { Realm } from "../realm";
+import { Ingredient } from "../ingredient";
+import { Product } from "../product";
 
 interface DefaultParams {
     id?: string;
@@ -10,10 +11,10 @@ interface DefaultParams {
     operatorId?: string;
     realmId?: string;
     clientName?: string;
-    itemsId?: string[];
+    items?: OrderItem[];
 }
 
-export type EventOrderQueryableParams = DefaultParams;
+export type EventOrderQueryableParams = Omit<DefaultParams, "items">;
 
 export type EventOrderCreatableParams = Omit<DefaultParams, "id" | "realmId">;
 
@@ -26,8 +27,8 @@ export enum OrderStatus {
 }
 
 export interface OrderItem {
-    id: string;
     product: Product;
+    modifications: Ingredient[];
 }
 
 export interface EventOrder {
@@ -37,5 +38,5 @@ export interface EventOrder {
     operator: Pick<Operator, "_id" | "displayName">;
     realm: Pick<Realm, "_id" | "name">;
     client: string;
-    items: Omit<Product, "realm">[];
+    items: OrderItem[];
 }
