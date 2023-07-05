@@ -121,6 +121,8 @@ export default {
     EVENT_ORDER_NEW_TITLE: "Novo Pedido",
     EVENT_ORDER_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir este pedido ? Esta ação é irreversível",
+    EVENT_ORDER_REGISTRY_CLIENT_STEP_TITLE: "Cliente",
+    EVENT_ORDER_REGISTRY_ITEMS_STEP_TITLE: "Items",
 
     MENU_VIEW_TITLE: "Menus",
     MENU_NEW_TITLE: "Novo Menu",
@@ -145,6 +147,9 @@ export default {
     REALM_NEW_TITLE: "Novo Barraca",
     REALM_REGISTRY_DELETE_MESSAGE:
         "Você realmente quer excluir esta barraca ? Esta ação é irreversível",
+
+    REGISTRY_STEP_BACK: "Voltar",
+    REGISTRY_STEP_NEXT: "Próximo",
 
     /**
      * API Error

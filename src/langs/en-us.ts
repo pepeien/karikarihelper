@@ -121,6 +121,8 @@ export default {
     EVENT_ORDER_NEW_TITLE: "New Order",
     EVENT_ORDER_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this order ? This action is irreversible",
+    EVENT_ORDER_REGISTRY_CLIENT_STEP_TITLE: "Client",
+    EVENT_ORDER_REGISTRY_ITEMS_STEP_TITLE: "Items",
 
     MENU_VIEW_TITLE: "Menus",
     MENU_NEW_TITLE: "New Menu",
@@ -145,6 +147,9 @@ export default {
     REALM_NEW_TITLE: "New Stand",
     REALM_REGISTRY_DELETE_MESSAGE:
         "Do you really want to delete this stand ? This action is irreversible",
+
+    REGISTRY_STEP_BACK: "Back",
+    REGISTRY_STEP_NEXT: "Next",
 
     /**
      * API Error
