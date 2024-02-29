@@ -51,6 +51,8 @@ export default {
 
     MENU_REGISTRY_REALM_TITLE: "Stands",
 
+    MENU_REGISTRY_CLIENT_TITLE: "Clients",
+
     /**
      * Registry
      */
