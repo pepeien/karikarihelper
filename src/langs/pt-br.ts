@@ -51,8 +51,6 @@ export default {
 
     MENU_REGISTRY_REALM_TITLE: "Barracas",
 
-    MENU_REGISTRY_CLIENT_TITLE: "Clientes",
-
     /**
      * Registry
      */
@@ -152,6 +150,36 @@ export default {
 
     REGISTRY_STEP_BACK: "Voltar",
     REGISTRY_STEP_NEXT: "Próximo",
+
+    /**
+     * Telemetry
+     * */
+    TELEMETRY_MOST_ORDERED_PRODUCT_EMPTY: "Não existem dados dos pedidos",
+    TELEMETRY_MOST_ORDERED_PRODUCT_PREFIX: "O produto mais pedido é",
+
+    TELEMETRY_FASTER_STAND_EMPTY: "Não existem dados desta barraca",
+    TELEMETRY_FASTER_STAND_PREFIX: "A barraca mais rápida é",
+    TELEMETRY_FASTER_STAND_MID: "com a média de",
+    TELEMETRY_FASTER_STAND_SUFFIX: "por pedido",
+
+    TELEMETRY_PENDING_ORDERS_EMPTY: "Não existem pedidos pendentes",
+    TELEMETRY_PENDING_ORDERS_PREFIX: "Existem",
+    TELEMETRY_PENDING_ORDERS_SUFFIX: "pedidos pendentes",
+
+    UPCOMING_TITLE: "Por Vir",
+    UPCOMING_EMPTY: "Não existem eventos por vir",
+
+    /**
+     * Time
+     */
+    TIME_SECOND: "segundo",
+    TIME_SECONDS: "segundos",
+    TIME_MINUTE: "minuto",
+    TIME_MINUTES: "minutos",
+    TIME_HOUR: "hora",
+    TIME_HOURS: "horas",
+    TIME_DAY: "dia",
+    TIME_DAYS: "dias",
 
     /**
      * API Error

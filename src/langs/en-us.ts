@@ -51,8 +51,6 @@ export default {
 
     MENU_REGISTRY_REALM_TITLE: "Stands",
 
-    MENU_REGISTRY_CLIENT_TITLE: "Clients",
-
     /**
      * Registry
      */
@@ -152,6 +150,36 @@ export default {
 
     REGISTRY_STEP_BACK: "Back",
     REGISTRY_STEP_NEXT: "Next",
+
+    /**
+     * Telemetry
+     * */
+    TELEMETRY_MOST_ORDERED_PRODUCT_EMPTY: "There is no order data",
+    TELEMETRY_MOST_ORDERED_PRODUCT_PREFIX: "The most ordered product was",
+
+    TELEMETRY_FASTER_STAND_EMPTY: "There is no stand data",
+    TELEMETRY_FASTER_STAND_PREFIX: "The faster stand was",
+    TELEMETRY_FASTER_STAND_MID: "averaging",
+    TELEMETRY_FASTER_STAND_SUFFIX: "per order",
+
+    TELEMETRY_PENDING_ORDERS_EMPTY: "There are no pending orders",
+    TELEMETRY_PENDING_ORDERS_PREFIX: "There are pending",
+    TELEMETRY_PENDING_ORDERS_SUFFIX: "orders",
+
+    UPCOMING_TITLE: "Upcoming",
+    UPCOMING_EMPTY: "There's no upcoming events",
+
+    /**
+     * Time
+     */
+    TIME_SECOND: "seconds",
+    TIME_SECONDS: "seconds",
+    TIME_MINUTE: "minute",
+    TIME_MINUTES: "minutes",
+    TIME_HOUR: "hour",
+    TIME_HOURS: "hours",
+    TIME_DAY: "day",
+    TIME_DAYS: "days",
 
     /**
      * API Error

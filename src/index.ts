@@ -48,6 +48,7 @@ export type {
     RealmQueryableParams,
     Realm,
 } from "./types/realm";
+export type { Telemetry } from "./types/telemetry";
 
 // Services
 export { FileService } from "./services/file";

@@ -44,4 +44,6 @@ export interface EventOrder {
     realm: Pick<Realm, "_id" | "name">;
     client: string;
     items: OrderItem[];
+    createdAt: Date;
+    updatedAt: Date;
 }

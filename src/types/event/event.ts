@@ -19,7 +19,14 @@ export interface Event {
     date: Date;
     orders: Pick<
         EventOrder,
-        "_id" | "status" | "client" | "operator" | "realm" | "items"
+        | "_id"
+        | "status"
+        | "client"
+        | "operator"
+        | "realm"
+        | "items"
+        | "createdAt"
+        | "updatedAt"
     >[];
     isOpen: boolean;
 }
