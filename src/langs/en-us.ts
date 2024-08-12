@@ -163,8 +163,9 @@ export default {
     TELEMETRY_FASTER_STAND_SUFFIX: "per order",
 
     TELEMETRY_PENDING_ORDERS_EMPTY: "There are no pending orders",
-    TELEMETRY_PENDING_ORDERS_PREFIX: "There are pending",
-    TELEMETRY_PENDING_ORDERS_SUFFIX: "orders",
+    TELEMETRY_PENDING_ORDERS_PREFIX: "There are",
+    TELEMETRY_PENDING_ORDERS_SUFFIX: "pending orders",
+    TELEMETRY_PENDING_ORDERS_TABLE_TITLE: "Pending Orders",
 
     UPCOMING_TITLE: "Upcoming",
     UPCOMING_EMPTY: "There's no upcoming events",

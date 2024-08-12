@@ -165,6 +165,7 @@ export default {
     TELEMETRY_PENDING_ORDERS_EMPTY: "Não existem pedidos pendentes",
     TELEMETRY_PENDING_ORDERS_PREFIX: "Existem",
     TELEMETRY_PENDING_ORDERS_SUFFIX: "pedidos pendentes",
+    TELEMETRY_PENDING_ORDERS_TABLE_TITLE: "Pedidos Pendentes",
 
     UPCOMING_TITLE: "Por Vir",
     UPCOMING_EMPTY: "Não existem eventos por vir",
